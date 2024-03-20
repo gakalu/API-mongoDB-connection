@@ -1,0 +1,23 @@
+{
+  "name": "lecture-2---practice-gakalu",
+  "version": "1.0.0",
+  "description": "The `university` collection is below.\r ```JavaScript\r {\r     \"_id\":1,\r     \"name\": \"MIU\",\r     \"programs\": [\r         {\"_id\":1, \"name\":\"Compro\"},\r         {\"_id\":2, \"name\":\"MSD\"},\r         {\"_id\":3, \"name\":\"MBA\"}\r     ],\r     \"departments\":[\r         {\"_id\":1, \"name\": \"CS\", \"professors\":[\r             {\"_id\":1, \"name\":\"John\"},\r             {\"_id\":2, \"name\":\"Selin\"}\r         ]},\r         {\"_id\":2, \"name\": \"Business\", \"professors\":[\r             {\"_id\":1, \"name\":\"Michael\"},\r             {\"_id\":2, \"name\":\"Tim\"}\r         ]},\r     ]\r }\r ```\r Your are responsible on writing code *(after line 50)* for 6 MongoDB queries within 6 pre-defined routes in `app.js` file:\r 1. Add a program *(level 1)*\r 2. Update a program by ID *(level 1)*\r 3. Delete a department by ID *(level 1)*\r 4. Add a new professor to a specific department *(level 2)*\r 5. Update a professor's name *(level 2)*\r 6. Delete a professor *(level 2)*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/lecture-2---practice-gakalu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/lecture-2---practice-gakalu/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/lecture-2---practice-gakalu#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  }
+}
