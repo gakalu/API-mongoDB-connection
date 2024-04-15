@@ -1,5 +1,5 @@
 # MongoDb Project
-## Rich MongoDB Documents Exercise
+## Rich MongoDB Documents
 The `university` collection is below.
 ```JavaScript
 {
