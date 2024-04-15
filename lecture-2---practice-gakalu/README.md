@@ -1,4 +1,4 @@
-# CS571-Practice-02
+# MongoDb Project
 ## Rich MongoDB Documents Exercise
 The `university` collection is below.
 ```JavaScript
